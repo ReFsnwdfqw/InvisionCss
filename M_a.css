@@ -20787,3 +20787,29 @@ span.g45e0f0cf:after {
     margin-left: 6px;
     margin-top: 5px;
 }
+.prototype_transition_panel--previewPanel--2RIGr {
+    position: relative;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 204px;
+    height: 108px;
+    margin-left: 12px;
+    background: #efefef
+}
+
+.prototype_transition_panel--previewFrame--2_pe1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    background: #222;
+    color: rgba(255, 255, 255, 0.3);
+}
+.prototype_transition_panel--destinationInactive--2llvz {
+    background: #aaa;
+}
