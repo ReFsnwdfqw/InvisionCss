@@ -182,9 +182,10 @@
 }
 
 .basic_form--textInput--3ZlM2 {
-    color: #444;
-    border: 1px solid #d4d4d4;
-    padding: 0 6px
+    color: #ababab;
+    background:  #222;
+    border: 0px solid #d4d4d4;
+    padding: 0 6px;
 }
 
 .basic_form--textInput--3ZlM2:focus {
@@ -3396,11 +3397,11 @@ button.local_components--publishChanges--1tI-C {
 
 .file_browser--searchSection--3vsdC {
     border-top: 6px solid #fcfcfc;
-    cursor: text
+    cursor: text;
 }
 
 .file_browser--selectedSearchSection--1rVPW {
-    background-color: #30c2ff
+    background-color: #111;
 }
 
 .file_browser--selectedSearchSection--1rVPW .file_browser--searchInput--2FgCP {
@@ -3512,11 +3513,12 @@ input.file_browser--searchInput--2FgCP::placeholder {
     position: relative;
     width: 200px;
     min-height: 100%;
-    padding-bottom: 36px;
+    padding-bottom: 31px;
+    margin-top: -6px;
     box-sizing: border-box;
     box-shadow: 1px 0 0 0 rgba(0,0,0,.05);
     z-index: 1;
-    box-shadow: 29px 0 23px 4px #3b3b3b;
+    box-shadow: 29px 5px 23px 4px #3b3b3b;
 }
 
 .file_browser--searchFocusedNavContent--1egCl .file_browser--selected--bWlGD.file_browser--sidebarSection--27hMJ {
@@ -3524,8 +3526,8 @@ input.file_browser--searchInput--2FgCP::placeholder {
 }
 
 .file_browser--navContent--1wT3b>.file_browser--section--2aZNw:first-child {
-    padding-top: 0;
-    border-top: none
+    padding-top: 0px;
+    border-top: none;
 }
 
 .file_browser--section--2aZNw {
@@ -3857,6 +3859,7 @@ input.sidebar--searchInput--cvfVe::placeholder {
 
 .sidebar--sectionText--31Nhy {
     display: -webkit-box;
+    color:  #fff;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -5560,7 +5563,8 @@ input.sidebar--searchInput--cvfVe::placeholder {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex
+    display: flex;
+    margin-left: 7px;
 }
 
 .segmented_control--segment--3uLnv {
@@ -13675,8 +13679,8 @@ input.paint_panels--paintLabel--ecWUN {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #fff;
-    color: #2c2c2c
+    background: #111;
+    color: #2c2c2c;
 }
 
 .main_menu--dropdown--OwHxL {
@@ -13702,6 +13706,7 @@ input.paint_panels--paintLabel--ecWUN {
 .top_bar--header---JfcG {
     position: fixed;
     height: 42px;
+    border-bottom: 1px solid #3b3b3b;
     background: #111;
     fill: #fff;
     color: #fff;
@@ -16365,8 +16370,10 @@ input.paint_panels--paintLabel--ecWUN {
     font: normal normal 400 11px/15px FigmaUI,Roboto,sans-serif;
     padding: 12px;
     border-right: 1px solid #444;
+    cursor:  pointer;
+    border-bottom: 1px solid #444;
     height: 100%;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 .team_creation--header--VkN5L {
@@ -16746,12 +16753,12 @@ input.paint_panels--paintLabel--ecWUN {
     box-sizing: border-box;
     border: 1px solid rgba(0,0,0,.13);
     z-index: 1;
-    pointer-events: none
+    pointer-events: none;
 }
 
 .file_tile--shadowTileBorder--1WLx7 {
     box-shadow: inset 0 0 0 1px rgba(0,0,0,.13);
-    border: none
+    border: none;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),screen and (min-resolution:2dppx) {
@@ -20718,10 +20725,10 @@ span.g45e0f0cf:after {
         display: none!important;
 }
 .basic_form--primaryBtn--3NqnQ:hover{
-    background:#000;
+    background: #222;
 }
 .basic_form--primaryBtn--3NqnQ{
-    background:#000;
+    background: #222;
 }
 #toolbar-action-export-selected-exportables {
     display: none!important;
