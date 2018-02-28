@@ -20767,3 +20767,14 @@ span.g45e0f0cf:after {
     width: 100%;
     height: 100%;
 }
+.pageContent-12 {
+    overflow-y: auto!important;
+    -webkit-overflow-scrolling: touch;
+    position: absolute!important;
+    top: 42px!important;
+    left: 200px!important;
+    right: 0px!important;
+    bottom: 0px!important;
+    background: #111!important;
+    color: #606060!important;
+}
