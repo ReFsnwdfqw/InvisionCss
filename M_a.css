@@ -1075,8 +1075,8 @@ button.basic_form--btn--3A-Ju::-moz-focus-inner {
 .draggable_modal--positionedContainer--1aHEn {
     position: fixed;
     z-index: 9;
-    top: 1px!important;
-    left: 1415px!important;
+    top: 47px!important;
+    left: 1411px!important;
     width: 270px!important;
     height: 639.5px!important;
     border-radius: 30px;
@@ -5564,7 +5564,7 @@ input.sidebar--searchInput--cvfVe::placeholder {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-left: 7px;
+    margin-left: 0px;
 }
 
 .segmented_control--segment--3uLnv {
@@ -7062,12 +7062,12 @@ body {
 .history_view--item--2R4op:after {
     content: "";
     display: block;
-    border-bottom: 1px solid #d4d4d4;
+    border-bottom: 0px solid #d4d4d4;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    pointer-events: none
+    pointer-events: none;
 }
 
 .history_view--itemSavepointUI--NerJT {
@@ -7091,7 +7091,8 @@ body {
 }
 
 .history_view--itemInfo--2gVyr:hover {
-    background-color: #f1f9ff!important
+    background-color: #222!important;
+    cursor:  pointer;
 }
 
 .history_view--itemActive--24mU4:after {
