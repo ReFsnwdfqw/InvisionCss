@@ -1075,9 +1075,9 @@ button.basic_form--btn--3A-Ju::-moz-focus-inner {
 .draggable_modal--positionedContainer--1aHEn {
     position: fixed;
     z-index: 9;
-    top: 42px!important;
-    left: 1421px!important;
-    width: 264px!important;
+    top: 1px!important;
+    left: 1415px!important;
+    width: 270px!important;
     height: 639.5px!important;
     border-radius: 30px;
 }
@@ -4591,7 +4591,7 @@ input.sidebar--searchInput--cvfVe::placeholder {
 }
 
 .raw_components--rowSelectedSecondary--N6MBn,.raw_components--rowSelectedSecondary--N6MBn .raw_components--chitCenter--3mNyg {
-    background: #181818;
+    background: #18181800;
 }
 
 .raw_components--labelRow--3iB2d {
@@ -20767,4 +20767,3 @@ span.g45e0f0cf:after {
     width: 100%;
     height: 100%;
 }
-
