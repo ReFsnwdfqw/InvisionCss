@@ -20813,3 +20813,25 @@ span.g45e0f0cf:after {
 .prototype_transition_panel--destinationInactive--2llvz {
     background: #aaa;
 }
+.action--root--vBxM98 {
+    height: 42px;
+    min-width: 42px;
+    padding: 0 6px;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: default;
+    fill: #fff;
+    color: #fff;
+    position: relative;
+}
